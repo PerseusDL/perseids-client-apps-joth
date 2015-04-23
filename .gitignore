@@ -34,3 +34,6 @@ fabconf.py
 
 pleiades
 data/*.json
+data/places
+data/occurrences
+data/persons
