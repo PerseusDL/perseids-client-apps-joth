@@ -1,0 +1,50 @@
+{
+   "@context" : "http://www.w3.org/ns/oa-context-20130208.json",
+   "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.e0cb5691c83f01323e8f0ada42b1fd09",
+   "@type" : "oa:Annotation",
+   "annotatedAt" : "2015-04-07T18:35:15.245383+00:00",
+   "annotatedBy" : {
+      "@id" : "http://data.perseus.org/sosol/users/Kelly",
+      "@type" : "foaf:Group",
+      "foaf:member" : [
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Sean Harvill"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Kelly Burk"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Carolyn Margulies"
+         }
+      ]
+   },
+   "dcterms:source" : "https://hypothes.is/api/annotations/S6u7WSQ2RVaMoLWOXpYwIA",
+   "dcterms:title" : "http://pleiades.stoa.org/places/912936#this identifies Susa as place in urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:M.memnon_1",
+   "hasBody" : [
+      {
+         "@id" : "http://pleiades.stoa.org/places/912936#this"
+      }
+   ],
+   "hasTarget" : {
+      "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.e0cb5691c83f01323e8f0ada42b1fd09#target-1",
+      "@type" : "oa:SpecificResource",
+      "hasSelector" : {
+         "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.e0cb5691c83f01323e8f0ada42b1fd09#target-1-sel-1",
+         "@type" : "oa:TextQuoteSelector",
+         "exact" : "Susa",
+         "prefix" : "first went to Egypt, thence to",
+         "suffix" : ", and thence to Troy. (Pats. 1.4"
+      },
+      "hasSource" : {
+         "@id" : "urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:M.memnon_1"
+      }
+   },
+   "motivatedBy" : "oa:identifying",
+   "serializedBy" : {
+      "@id" : "https://hypothes.is",
+      "@type" : "prov:SoftwareAgent"
+   }
+}

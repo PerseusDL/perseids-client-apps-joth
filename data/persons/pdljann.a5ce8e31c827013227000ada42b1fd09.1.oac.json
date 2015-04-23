@@ -1,0 +1,80 @@
+{
+   "@context" : "http://www.w3.org/ns/oa-context-20130208.json",
+   "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.a5ce8e31c827013227000ada42b1fd09",
+   "@type" : "oa:Annotation",
+   "annotatedAt" : "2015-04-07T22:31:07.746787+00:00",
+   "annotatedBy" : {
+      "@id" : "http://data.perseus.org/sosol/users/Nathalie%20Dumornay,%20Ian%20Lam,%20Miguel%20Carralon",
+      "@type" : "foaf:Group",
+      "foaf:member" : [
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Nathalie Dumornay"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Ian Lam"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Miguel Carralon"
+         }
+      ]
+   },
+   "dcterms:source" : "https://hypothes.is/api/annotations/nqRSIC-TRouIIP21el5VhQ",
+   "dcterms:title" : "http://data.perseus.org/people/smith:glaucus-7#this identifies Glaucus as perseusrdf:EnemyOf, snap:IntimateRelationship in urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:S.scylla_1",
+   "hasBody" : {
+      "@context" : {
+         "lawd" : "http://lawd.info/ontology/",
+         "perseusrdf" : "http://data.perseus.org/rdfvocab/addons/",
+         "snap" : "http://onto.snapdrgn.net/snap#"
+      },
+      "@graph" : [
+         {
+            "@id" : "http://data.perseus.org/people/smith:scylla-1#this",
+            "snap:has-bond" : {
+               "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.a5ce8e31c827013227000ada42b1fd09#bond-1"
+            }
+         },
+         {
+            "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.a5ce8e31c827013227000ada42b1fd09#bond-1",
+            "@type" : "perseusrdf:EnemyOf",
+            "snap:bond-with" : {
+               "@id" : "http://data.perseus.org/people/smith:glaucus-7#this"
+            }
+         },
+         {
+            "@id" : "http://data.perseus.org/people/smith:scylla-1#this",
+            "snap:has-bond" : {
+               "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.a5ce8e31c827013227000ada42b1fd09#bond-2"
+            }
+         },
+         {
+            "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.a5ce8e31c827013227000ada42b1fd09#bond-2",
+            "@type" : "snap:IntimateRelationship",
+            "snap:bond-with" : {
+               "@id" : "http://data.perseus.org/people/smith:glaucus-7#this"
+            }
+         }
+      ]
+   },
+   "hasTarget" : {
+      "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.a5ce8e31c827013227000ada42b1fd09#target-1",
+      "@type" : "oa:SpecificResource",
+      "hasSelector" : {
+         "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.a5ce8e31c827013227000ada42b1fd09#target-1-sel-1",
+         "@type" : "oa:TextQuoteSelector",
+         "exact" : "Glaucus",
+         "prefix" : "d was beloved by the marine god",
+         "suffix" : ". He applied to Circe for means"
+      },
+      "hasSource" : {
+         "@id" : "urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:S.scylla_1"
+      }
+   },
+   "motivatedBy" : "oa:identifying",
+   "serializedBy" : {
+      "@id" : "https://hypothes.is",
+      "@type" : "prov:SoftwareAgent"
+   }
+}

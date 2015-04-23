@@ -1,0 +1,46 @@
+{
+   "@context" : "http://www.w3.org/ns/oa-context-20130208.json",
+   "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.718f9f01c841013259d20ada42b1fd09",
+   "@type" : "oa:Annotation",
+   "annotatedAt" : "2015-03-30T01:52:53.389962+00:00",
+   "annotatedBy" : {
+      "@id" : "http://data.perseus.org/sosol/users/John%20Shepard,%20Joseph%20Caplan,%20Luke%20O'Connor",
+      "@type" : "foaf:Group",
+      "foaf:member" : [
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Luke O'Connor"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Veer Bhalla"
+         }
+      ]
+   },
+   "dcterms:source" : "https://hypothes.is/api/annotations/TEDscwKVQH28SB7mne21cQ",
+   "dcterms:title" : "http://pleiades.stoa.org/places/570531#this identifies Olympia as place in urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:E.endymion_1",
+   "hasBody" : [
+      {
+         "@id" : "http://pleiades.stoa.org/places/570531#this"
+      }
+   ],
+   "hasTarget" : {
+      "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.718f9f01c841013259d20ada42b1fd09#target-1",
+      "@type" : "oa:SpecificResource",
+      "hasSelector" : {
+         "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.718f9f01c841013259d20ada42b1fd09#target-1-sel-1",
+         "@type" : "oa:TextQuoteSelector",
+         "exact" : "Olympia",
+         "prefix" : "to engage in the race-course at",
+         "suffix" : ", and promised to the victor the"
+      },
+      "hasSource" : {
+         "@id" : "urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:E.endymion_1"
+      }
+   },
+   "motivatedBy" : "oa:identifying",
+   "serializedBy" : {
+      "@id" : "https://hypothes.is",
+      "@type" : "prov:SoftwareAgent"
+   }
+}

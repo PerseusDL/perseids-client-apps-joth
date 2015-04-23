@@ -1,0 +1,46 @@
+{
+   "@context" : "http://www.w3.org/ns/oa-context-20130208.json",
+   "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.c92caaf1c8410132e3980ada42b1fd09",
+   "@type" : "oa:Annotation",
+   "annotatedAt" : "2015-04-09T02:33:54.638864+00:00",
+   "annotatedBy" : {
+      "@id" : "http://data.perseus.org/sosol/users/John%20Shepard,%20Joseph%20Caplan,%20Luke%20O'Connor",
+      "@type" : "foaf:Group",
+      "foaf:member" : [
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Luke O'Connor"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Veer Bhalla"
+         }
+      ]
+   },
+   "dcterms:source" : "https://hypothes.is/api/annotations/8dDWQWbaRWiZtXjEFA_zrA",
+   "dcterms:title" : "http://pleiades.stoa.org/places/599753#this identifies mount Latmus as place in urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:E.endymion_1",
+   "hasBody" : [
+      {
+         "@id" : "http://pleiades.stoa.org/places/599753#this"
+      }
+   ],
+   "hasTarget" : {
+      "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.c92caaf1c8410132e3980ada42b1fd09#target-1",
+      "@type" : "oa:SpecificResource",
+      "hasSelector" : {
+         "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.c92caaf1c8410132e3980ada42b1fd09#target-1-sel-1",
+         "@type" : "oa:TextQuoteSelector",
+         "exact" : "mount Latmus",
+         "prefix" : "owing him into eternal sleep on",
+         "suffix" : ". (Schol. ad Theocrit. 3.49.) Ot"
+      },
+      "hasSource" : {
+         "@id" : "urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:E.endymion_1"
+      }
+   },
+   "motivatedBy" : "oa:identifying",
+   "serializedBy" : {
+      "@id" : "https://hypothes.is",
+      "@type" : "prov:SoftwareAgent"
+   }
+}

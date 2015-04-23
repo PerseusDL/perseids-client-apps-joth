@@ -1,0 +1,50 @@
+{
+   "@context" : "http://www.w3.org/ns/oa-context-20130208.json",
+   "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.b530ec71c83f01321ff20ada42b1fd09",
+   "@type" : "oa:Annotation",
+   "annotatedAt" : "2015-04-07T18:30:14.790210+00:00",
+   "annotatedBy" : {
+      "@id" : "http://data.perseus.org/sosol/users/Kelly",
+      "@type" : "foaf:Group",
+      "foaf:member" : [
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Sean Harvill"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Kelly Burk"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Carolyn Margulies"
+         }
+      ]
+   },
+   "dcterms:source" : "https://hypothes.is/api/annotations/-8B_N5i8RnacBbCUaqUezg",
+   "dcterms:title" : "http://pleiades.stoa.org/places/550595#this identifies Troy as place in urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:M.memnon_1",
+   "hasBody" : [
+      {
+         "@id" : "http://pleiades.stoa.org/places/550595#this"
+      }
+   ],
+   "hasTarget" : {
+      "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.b530ec71c83f01321ff20ada42b1fd09#target-1",
+      "@type" : "oa:SpecificResource",
+      "hasSelector" : {
+         "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.b530ec71c83f01321ff20ada42b1fd09#target-1-sel-1",
+         "@type" : "oa:TextQuoteSelector",
+         "exact" : "Troy",
+         "prefix" : "tilochus, the son of Nestor, at",
+         "suffix" : ". (Hes. Th. 984, &c.; Hom. Od. 4"
+      },
+      "hasSource" : {
+         "@id" : "urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:M.memnon_1"
+      }
+   },
+   "motivatedBy" : "oa:identifying",
+   "serializedBy" : {
+      "@id" : "https://hypothes.is",
+      "@type" : "prov:SoftwareAgent"
+   }
+}

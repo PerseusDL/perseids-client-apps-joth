@@ -1,0 +1,67 @@
+{
+   "@context" : "http://www.w3.org/ns/oa-context-20130208.json",
+   "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.52daa5b1c82c0132d1d60ada42b1fd09",
+   "@type" : "oa:Annotation",
+   "annotatedAt" : "2015-02-16T20:59:28.551441+00:00",
+   "annotatedBy" : {
+      "@id" : "http://data.perseus.org/sosol/users/Tucker",
+      "@type" : "foaf:Group",
+      "foaf:member" : [
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Tucker Taylor"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Sam Goldsmith"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Nishant Joshi"
+         }
+      ]
+   },
+   "dcterms:source" : "https://hypothes.is/api/annotations/VOlidXtdTbWoio92smj7ZA",
+   "dcterms:title" : "http://data.perseus.org/people/smith:hecabe-1#this identifies Hecabe as snap:MotherOf in urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:P.polyxena_1",
+   "hasBody" : {
+      "@context" : {
+         "lawd" : "http://lawd.info/ontology/",
+         "perseusrdf" : "http://data.perseus.org/rdfvocab/addons/",
+         "snap" : "http://onto.snapdrgn.net/snap#"
+      },
+      "@graph" : [
+         {
+            "@id" : "http://data.perseus.org/people/smith:polyxena-1#this",
+            "snap:has-bond" : {
+               "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.52daa5b1c82c0132d1d60ada42b1fd09#bond-1"
+            }
+         },
+         {
+            "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.52daa5b1c82c0132d1d60ada42b1fd09#bond-1",
+            "@type" : "snap:MotherOf",
+            "snap:bond-with" : {
+               "@id" : "http://data.perseus.org/people/smith:hecabe-1#this"
+            }
+         }
+      ]
+   },
+   "hasTarget" : {
+      "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.52daa5b1c82c0132d1d60ada42b1fd09#target-1",
+      "@type" : "oa:SpecificResource",
+      "hasSelector" : {
+         "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.52daa5b1c82c0132d1d60ada42b1fd09#target-1-sel-1",
+         "@type" : "oa:TextQuoteSelector",
+         "exact" : "Hecabe",
+         "prefix" : "υξένη), a daughter of Priam and",
+         "suffix" : "(Apollod. 3.12.5). She was belo"
+      },
+      "hasSource" : {
+         "@id" : "urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:P.polyxena_1"
+      }
+   },
+   "motivatedBy" : "oa:identifying",
+   "serializedBy" : {
+      "@id" : "https://hypothes.is",
+      "@type" : "prov:SoftwareAgent"
+   }
+}

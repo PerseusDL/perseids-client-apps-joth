@@ -1,0 +1,50 @@
+{
+   "@context" : "http://www.w3.org/ns/oa-context-20130208.json",
+   "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.727d0b10c827013226ef0ada42b1fd09",
+   "@type" : "oa:Annotation",
+   "annotatedAt" : "2015-02-22T19:32:33.203765+00:00",
+   "annotatedBy" : {
+      "@id" : "http://data.perseus.org/sosol/users/Nathalie%20Dumornay,%20Ian%20Lam,%20Miguel%20Carralon",
+      "@type" : "foaf:Group",
+      "foaf:member" : [
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Nathalie Dumornay"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Ian Lam"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Miguel Carralon"
+         }
+      ]
+   },
+   "dcterms:source" : "https://hypothes.is/api/annotations/KNcarDj7SuOvRRjrc13yIA",
+   "dcterms:title" : "http://pleiades.stoa.org/places/462157#this identifies Charybdis as place in urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:S.scylla_1",
+   "hasBody" : [
+      {
+         "@id" : "http://pleiades.stoa.org/places/462157#this"
+      }
+   ],
+   "hasTarget" : {
+      "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.727d0b10c827013226ef0ada42b1fd09#target-1",
+      "@type" : "oa:SpecificResource",
+      "hasSelector" : {
+         "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.727d0b10c827013226ef0ada42b1fd09#target-1-sel-1",
+         "@type" : "oa:TextQuoteSelector",
+         "exact" : "Charybdis",
+         "prefix" : "Scylla （*Sku/lla） 1. Scylla and",
+         "suffix" : ", the names of two rocks between"
+      },
+      "hasSource" : {
+         "@id" : "urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:S.scylla_1"
+      }
+   },
+   "motivatedBy" : "oa:identifying",
+   "serializedBy" : {
+      "@id" : "https://hypothes.is",
+      "@type" : "prov:SoftwareAgent"
+   }
+}

@@ -1,0 +1,67 @@
+{
+   "@context" : "http://www.w3.org/ns/oa-context-20130208.json",
+   "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.2aa4efc1c83f01325cab0ada42b1fd09",
+   "@type" : "oa:Annotation",
+   "annotatedAt" : "2015-03-09T02:55:57.912300+00:00",
+   "annotatedBy" : {
+      "@id" : "http://data.perseus.org/sosol/users/Kelly",
+      "@type" : "foaf:Group",
+      "foaf:member" : [
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Sean Harvill"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Kelly Burk"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Carolyn Margulies"
+         }
+      ]
+   },
+   "dcterms:source" : "https://hypothes.is/api/annotations/isE-5nU8SXy0ykR46ffg-Q",
+   "dcterms:title" : "http://data.perseus.org/people/smith:laomedon-1#this identifies Laomedon as snap:GranfatherOf in urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:M.memnon_1",
+   "hasBody" : {
+      "@context" : {
+         "lawd" : "http://lawd.info/ontology/",
+         "perseusrdf" : "http://data.perseus.org/rdfvocab/addons/",
+         "snap" : "http://onto.snapdrgn.net/snap#"
+      },
+      "@graph" : [
+         {
+            "@id" : "http://data.perseus.org/people/smith:memnon-1#this",
+            "snap:has-bond" : {
+               "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.2aa4efc1c83f01325cab0ada42b1fd09#bond-1"
+            }
+         },
+         {
+            "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.2aa4efc1c83f01325cab0ada42b1fd09#bond-1",
+            "@type" : "snap:GranfatherOf",
+            "snap:bond-with" : {
+               "@id" : "http://data.perseus.org/people/smith:laomedon-1#this"
+            }
+         }
+      ]
+   },
+   "hasTarget" : {
+      "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.2aa4efc1c83f01325cab0ada42b1fd09#target-1",
+      "@type" : "oa:SpecificResource",
+      "hasSelector" : {
+         "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.2aa4efc1c83f01325cab0ada42b1fd09#target-1-sel-1",
+         "@type" : "oa:TextQuoteSelector",
+         "exact" : "Laomedon",
+         "prefix" : "ep-brothers, being both sons of",
+         "suffix" : "by different mothers. (Tzetz. a"
+      },
+      "hasSource" : {
+         "@id" : "urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:M.memnon_1"
+      }
+   },
+   "motivatedBy" : "oa:identifying",
+   "serializedBy" : {
+      "@id" : "https://hypothes.is",
+      "@type" : "prov:SoftwareAgent"
+   }
+}

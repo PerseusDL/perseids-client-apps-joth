@@ -1,0 +1,46 @@
+{
+   "@context" : "http://www.w3.org/ns/oa-context-20130208.json",
+   "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.607ac1e1c8410132bd720ada42b1fd09",
+   "@type" : "oa:Annotation",
+   "annotatedAt" : "2015-03-30T01:49:06.710765+00:00",
+   "annotatedBy" : {
+      "@id" : "http://data.perseus.org/sosol/users/John%20Shepard,%20Joseph%20Caplan,%20Luke%20O'Connor",
+      "@type" : "foaf:Group",
+      "foaf:member" : [
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Luke O'Connor"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Veer Bhalla"
+         }
+      ]
+   },
+   "dcterms:source" : "https://hypothes.is/api/annotations/76OvY4UFSLmDc0SofH0_XQ",
+   "dcterms:title" : "http://pleiades.stoa.org/places/570220#this identifies Elis as place in urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:E.endymion_1",
+   "hasBody" : [
+      {
+         "@id" : "http://pleiades.stoa.org/places/570220#this"
+      }
+   ],
+   "hasTarget" : {
+      "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.607ac1e1c8410132bd720ada42b1fd09#target-1",
+      "@type" : "oa:SpecificResource",
+      "hasSelector" : {
+         "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.607ac1e1c8410132bd720ada42b1fd09#target-1-sel-1",
+         "@type" : "oa:TextQuoteSelector",
+         "exact" : "Elis",
+         "prefix" : "ed Clymenus from the kingdom of",
+         "suffix" : ", and introduced into the countr"
+      },
+      "hasSource" : {
+         "@id" : "urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:E.endymion_1"
+      }
+   },
+   "motivatedBy" : "oa:identifying",
+   "serializedBy" : {
+      "@id" : "https://hypothes.is",
+      "@type" : "prov:SoftwareAgent"
+   }
+}

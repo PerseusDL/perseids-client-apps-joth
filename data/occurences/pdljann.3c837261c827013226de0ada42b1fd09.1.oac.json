@@ -1,0 +1,85 @@
+{
+   "@context" : "http://www.w3.org/ns/oa-context-20130208.json",
+   "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.3c837261c827013226de0ada42b1fd09",
+   "@type" : "oa:Annotation",
+   "annotatedAt" : "2015-02-20T00:02:20.010726+00:00",
+   "annotatedBy" : {
+      "@id" : "http://data.perseus.org/sosol/users/Nathalie%20Dumornay,%20Ian%20Lam,%20Miguel%20Carralon",
+      "@type" : "foaf:Group",
+      "foaf:member" : [
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Nathalie Dumornay"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Ian Lam"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Miguel Carralon"
+         }
+      ]
+   },
+   "dcterms:source" : "https://hypothes.is/api/annotations/a9rLj1OkTy-7xxpFGfsl5g",
+   "dcterms:title" : "http://data.perseus.org/citations/urn:cts:greekLit:tlg0085.tlg005.perseus-grc1:1234 describes Scylla with an attestation of βλάβην in urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:S.scylla_1",
+   "hasBody" : {
+      "@context" : {
+         "lawd" : "http://lawd.info/ontology/",
+         "perseusrdf" : "http://data.perseus.org/rdfvocab/addons/",
+         "snap" : "http://onto.snapdrgn.net/snap#"
+      },
+      "@graph" : [
+         {
+            "@id" : "http://data.perseus.org/people/smith:scylla-1#this",
+            "http://lawd.info/ontology/hasAttestation" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.3c837261c827013226de0ada42b1fd09#attest-1"
+         },
+         {
+            "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.3c837261c827013226de0ada42b1fd09#attest-1",
+            "@type" : [
+               "http://lawd.info/ontology/Attestation",
+               "cnt:ContentAsText"
+            ],
+            "cnt:chars" : "βλάβην",
+            "http://purl.org/spar/cito/citesAsEvidence" : "http://data.perseus.org/citations/urn:cts:greekLit:tlg0085.tlg005.perseus-grc1:1234"
+         },
+         {
+            "@id" : "http://data.perseus.org/citations/urn:cts:greekLit:tlg0085.tlg005.perseus-grc1:1234",
+            "@type" : "http://lawd.info/ontology/Citation",
+            "foaf:homepage" : {
+               "@id" : "http://data.perseus.org/citations/urn:cts:greekLit:tlg0085.tlg005.perseus-grc1:1234"
+            },
+            "http://lawd.info/ontology/represents" : {
+               "@id" : "http://data.perseus.org/texts/urn:cts:greekLit:tlg0085.tlg005.perseus-grc1",
+               "@type" : "http://lawd.info/ontology/WrittenWork",
+               "http://lawd.info/ontology/embodies" : {
+                  "@id" : "http://data.perseus.org/texts/urn:cts:greekLit:tlg0085.tlg005",
+                  "@type" : "http://lawd.info/ontology/ConceptualWork"
+               },
+               "rdfs:isDefinedBy" : {
+                  "@id" : "http://data.perseus.org/catalog/urn:cts:greekLit:tlg0085.tlg005.perseus-grc1"
+               }
+            }
+         }
+      ]
+   },
+   "hasTarget" : {
+      "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.3c837261c827013226de0ada42b1fd09#target-1",
+      "@type" : "oa:SpecificResource",
+      "hasSelector" : {
+         "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.3c837261c827013226de0ada42b1fd09#target-1-sel-1",
+         "@type" : "oa:TextQuoteSelector",
+         "exact" : "Scylla",
+         "prefix" : "us Sy'mmachus - Syrus T U/V X Z",
+         "suffix" : "（*Sku/lla） 1. Scylla and Charyb"
+      },
+      "hasSource" : {
+         "@id" : "urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:S.scylla_1"
+      }
+   },
+   "motivatedBy" : "oa:describing",
+   "serializedBy" : {
+      "@id" : "https://hypothes.is",
+      "@type" : "prov:SoftwareAgent"
+   }
+}

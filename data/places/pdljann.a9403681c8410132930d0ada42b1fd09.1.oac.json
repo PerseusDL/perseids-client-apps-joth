@@ -1,0 +1,46 @@
+{
+   "@context" : "http://www.w3.org/ns/oa-context-20130208.json",
+   "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.a9403681c8410132930d0ada42b1fd09",
+   "@type" : "oa:Annotation",
+   "annotatedAt" : "2015-04-09T02:29:45.297085+00:00",
+   "annotatedBy" : {
+      "@id" : "http://data.perseus.org/sosol/users/John%20Shepard,%20Joseph%20Caplan,%20Luke%20O'Connor",
+      "@type" : "foaf:Group",
+      "foaf:member" : [
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Luke O'Connor"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Veer Bhalla"
+         }
+      ]
+   },
+   "dcterms:source" : "https://hypothes.is/api/annotations/sr7V3VD9R2OgV9LlrhuXQg",
+   "dcterms:title" : "http://pleiades.stoa.org/places/599753#this identifies mount Latmus as place in urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:E.endymion_1",
+   "hasBody" : [
+      {
+         "@id" : "http://pleiades.stoa.org/places/599753#this"
+      }
+   ],
+   "hasTarget" : {
+      "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.a9403681c8410132930d0ada42b1fd09#target-1",
+      "@type" : "oa:SpecificResource",
+      "hasSelector" : {
+         "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.a9403681c8410132930d0ada42b1fd09#target-1-sel-1",
+         "@type" : "oa:TextQuoteSelector",
+         "exact" : "mount Latmus",
+         "prefix" : "he was slumbering in a cave of",
+         "suffix" : ", Selene came down to him, kisse"
+      },
+      "hasSource" : {
+         "@id" : "urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:E.endymion_1"
+      }
+   },
+   "motivatedBy" : "oa:identifying",
+   "serializedBy" : {
+      "@id" : "https://hypothes.is",
+      "@type" : "prov:SoftwareAgent"
+   }
+}

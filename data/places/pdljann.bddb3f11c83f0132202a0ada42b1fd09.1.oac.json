@@ -1,0 +1,50 @@
+{
+   "@context" : "http://www.w3.org/ns/oa-context-20130208.json",
+   "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.bddb3f11c83f0132202a0ada42b1fd09",
+   "@type" : "oa:Annotation",
+   "annotatedAt" : "2015-04-07T21:24:37.840361+00:00",
+   "annotatedBy" : {
+      "@id" : "http://data.perseus.org/sosol/users/Kelly",
+      "@type" : "foaf:Group",
+      "foaf:member" : [
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Sean Harvill"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Kelly Burk"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Carolyn Margulies"
+         }
+      ]
+   },
+   "dcterms:source" : "https://hypothes.is/api/annotations/SUD_N2rnTg-l_QfKDj510A",
+   "dcterms:title" : "http://pleiades.stoa.org/places/906014#this identifies Cissia as place in urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:M.memnon_1",
+   "hasBody" : [
+      {
+         "@id" : "http://pleiades.stoa.org/places/906014#this"
+      }
+   ],
+   "hasTarget" : {
+      "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.bddb3f11c83f0132202a0ada42b1fd09#target-1",
+      "@type" : "oa:SpecificResource",
+      "hasSelector" : {
+         "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.bddb3f11c83f0132202a0ada42b1fd09#target-1-sel-1",
+         "@type" : "oa:TextQuoteSelector",
+         "exact" : "Cissia",
+         "prefix" : "), from the Persian province of",
+         "suffix" : ". (Strab. p. 728 ; Hdt. 5.49, 52"
+      },
+      "hasSource" : {
+         "@id" : "urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:M.memnon_1"
+      }
+   },
+   "motivatedBy" : "oa:identifying",
+   "serializedBy" : {
+      "@id" : "https://hypothes.is",
+      "@type" : "prov:SoftwareAgent"
+   }
+}

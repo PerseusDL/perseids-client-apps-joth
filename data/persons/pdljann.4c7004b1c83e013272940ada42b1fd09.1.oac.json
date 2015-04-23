@@ -1,0 +1,71 @@
+{
+   "@context" : "http://www.w3.org/ns/oa-context-20130208.json",
+   "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.4c7004b1c83e013272940ada42b1fd09",
+   "@type" : "oa:Annotation",
+   "annotatedAt" : "2015-02-23T00:41:24.832884+00:00",
+   "annotatedBy" : {
+      "@id" : "http://data.perseus.org/sosol/users/Steve",
+      "@type" : "foaf:Group",
+      "foaf:member" : [
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Steven Mullahoo"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Ben Meyerson"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Emily Baker"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Adina Feinstein"
+         }
+      ]
+   },
+   "dcterms:source" : "https://hypothes.is/api/annotations/S9fBgJB6RsOGKnZT4qIrnA",
+   "dcterms:title" : "http://data.perseus.org/people/smith:pergamus-1#this identifies Pergamls as snap:SonOf in urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:A.andromache_1",
+   "hasBody" : {
+      "@context" : {
+         "lawd" : "http://lawd.info/ontology/",
+         "perseusrdf" : "http://data.perseus.org/rdfvocab/addons/",
+         "snap" : "http://onto.snapdrgn.net/snap#"
+      },
+      "@graph" : [
+         {
+            "@id" : "http://data.perseus.org/people/smith:andromache-1#this",
+            "snap:has-bond" : {
+               "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.4c7004b1c83e013272940ada42b1fd09#bond-1"
+            }
+         },
+         {
+            "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.4c7004b1c83e013272940ada42b1fd09#bond-1",
+            "@type" : "snap:SonOf",
+            "snap:bond-with" : {
+               "@id" : "http://data.perseus.org/people/smith:pergamus-1#this"
+            }
+         }
+      ]
+   },
+   "hasTarget" : {
+      "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.4c7004b1c83e013272940ada42b1fd09#target-1",
+      "@type" : "oa:SpecificResource",
+      "hasSelector" : {
+         "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.4c7004b1c83e013272940ada42b1fd09#target-1-sel-1",
+         "@type" : "oa:TextQuoteSelector",
+         "exact" : "Pergamls",
+         "prefix" : "ree sons, Molossus, Pielus, and",
+         "suffix" : ". Here she was found by Aencas o"
+      },
+      "hasSource" : {
+         "@id" : "urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:A.andromache_1"
+      }
+   },
+   "motivatedBy" : "oa:identifying",
+   "serializedBy" : {
+      "@id" : "https://hypothes.is",
+      "@type" : "prov:SoftwareAgent"
+   }
+}

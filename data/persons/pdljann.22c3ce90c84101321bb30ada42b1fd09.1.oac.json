@@ -1,0 +1,63 @@
+{
+   "@context" : "http://www.w3.org/ns/oa-context-20130208.json",
+   "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.22c3ce90c84101321bb30ada42b1fd09",
+   "@type" : "oa:Annotation",
+   "annotatedAt" : "2015-02-22T21:01:14.766503+00:00",
+   "annotatedBy" : {
+      "@id" : "http://data.perseus.org/sosol/users/John%20Shepard,%20Joseph%20Caplan,%20Luke%20O'Connor",
+      "@type" : "foaf:Group",
+      "foaf:member" : [
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Luke O'Connor"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Veer Bhalla"
+         }
+      ]
+   },
+   "dcterms:source" : "https://hypothes.is/api/annotations/iyqPjVC5QuuwygYG0Fpqxg",
+   "dcterms:title" : "http://data.perseus.org/people/smith:selene-1#this identifies Selene as snap:IntimateRelationship in urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:E.endymion_1",
+   "hasBody" : {
+      "@context" : {
+         "lawd" : "http://lawd.info/ontology/",
+         "perseusrdf" : "http://data.perseus.org/rdfvocab/addons/",
+         "snap" : "http://onto.snapdrgn.net/snap#"
+      },
+      "@graph" : [
+         {
+            "@id" : "http://data.perseus.org/people/smith:endymion-1#this",
+            "snap:has-bond" : {
+               "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.22c3ce90c84101321bb30ada42b1fd09#bond-1"
+            }
+         },
+         {
+            "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.22c3ce90c84101321bb30ada42b1fd09#bond-1",
+            "@type" : "snap:IntimateRelationship",
+            "snap:bond-with" : {
+               "@id" : "http://data.perseus.org/people/smith:selene-1#this"
+            }
+         }
+      ]
+   },
+   "hasTarget" : {
+      "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.22c3ce90c84101321bb30ada42b1fd09#target-1",
+      "@type" : "oa:SpecificResource",
+      "hasSelector" : {
+         "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.22c3ce90c84101321bb30ada42b1fd09#target-1-sel-1",
+         "@type" : "oa:TextQuoteSelector",
+         "exact" : "Selene",
+         "prefix" : "49.) Others, lastly, state that",
+         "suffix" : ", charmed with his surpassing be"
+      },
+      "hasSource" : {
+         "@id" : "urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:E.endymion_1"
+      }
+   },
+   "motivatedBy" : "oa:identifying",
+   "serializedBy" : {
+      "@id" : "https://hypothes.is",
+      "@type" : "prov:SoftwareAgent"
+   }
+}

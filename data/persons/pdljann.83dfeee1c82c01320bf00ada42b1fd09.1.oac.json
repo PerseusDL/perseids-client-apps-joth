@@ -1,0 +1,67 @@
+{
+   "@context" : "http://www.w3.org/ns/oa-context-20130208.json",
+   "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.83dfeee1c82c01320bf00ada42b1fd09",
+   "@type" : "oa:Annotation",
+   "annotatedAt" : "2015-04-18T18:10:52.206844+00:00",
+   "annotatedBy" : {
+      "@id" : "http://data.perseus.org/sosol/users/Tucker",
+      "@type" : "foaf:Group",
+      "foaf:member" : [
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Tucker Taylor"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Sam Goldsmith"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Nishant Joshi"
+         }
+      ]
+   },
+   "dcterms:source" : "https://hypothes.is/api/annotations/jkI0bcD0TNe1fOdRw2efUA",
+   "dcterms:title" : "http://data.perseus.org/people/smith:achilles-1#this identifies Achilles as snap:IntimateRelationship in urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:P.polyxena_1",
+   "hasBody" : {
+      "@context" : {
+         "lawd" : "http://lawd.info/ontology/",
+         "perseusrdf" : "http://data.perseus.org/rdfvocab/addons/",
+         "snap" : "http://onto.snapdrgn.net/snap#"
+      },
+      "@graph" : [
+         {
+            "@id" : "http://data.perseus.org/people/smith:polyxena-1#this",
+            "snap:has-bond" : {
+               "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.83dfeee1c82c01320bf00ada42b1fd09#bond-1"
+            }
+         },
+         {
+            "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.83dfeee1c82c01320bf00ada42b1fd09#bond-1",
+            "@type" : "snap:IntimateRelationship",
+            "snap:bond-with" : {
+               "@id" : "http://data.perseus.org/people/smith:achilles-1#this"
+            }
+         }
+      ]
+   },
+   "hasTarget" : {
+      "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.83dfeee1c82c01320bf00ada42b1fd09#target-1",
+      "@type" : "oa:SpecificResource",
+      "hasSelector" : {
+         "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.83dfeee1c82c01320bf00ada42b1fd09#target-1-sel-1",
+         "@type" : "oa:TextQuoteSelector",
+         "exact" : "Achilles",
+         "prefix" : "oice was heard from the tomb of",
+         "suffix" : "demanding a share in the booty,"
+      },
+      "hasSource" : {
+         "@id" : "urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:P.polyxena_1"
+      }
+   },
+   "motivatedBy" : "oa:identifying",
+   "serializedBy" : {
+      "@id" : "https://hypothes.is",
+      "@type" : "prov:SoftwareAgent"
+   }
+}

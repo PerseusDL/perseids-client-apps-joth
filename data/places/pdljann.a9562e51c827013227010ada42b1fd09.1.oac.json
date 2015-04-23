@@ -1,0 +1,50 @@
+{
+   "@context" : "http://www.w3.org/ns/oa-context-20130208.json",
+   "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.a9562e51c827013227010ada42b1fd09",
+   "@type" : "oa:Annotation",
+   "annotatedAt" : "2015-02-22T19:34:09.747896+00:00",
+   "annotatedBy" : {
+      "@id" : "http://data.perseus.org/sosol/users/Nathalie%20Dumornay,%20Ian%20Lam,%20Miguel%20Carralon",
+      "@type" : "foaf:Group",
+      "foaf:member" : [
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : "Nathalie Dumornay"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Ian Lam"
+         },
+         {
+            "@type" : "foaf:Person",
+            "foaf:name" : " Miguel Carralon"
+         }
+      ]
+   },
+   "dcterms:source" : "https://hypothes.is/api/annotations/z2jAiCCJSzyJiPTCawDu8A",
+   "dcterms:title" : "http://pleiades.stoa.org/places/462492#this identifies Sicily as place in urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:S.scylla_1",
+   "hasBody" : [
+      {
+         "@id" : "http://pleiades.stoa.org/places/462492#this"
+      }
+   ],
+   "hasTarget" : {
+      "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.a9562e51c827013227010ada42b1fd09#target-1",
+      "@type" : "oa:SpecificResource",
+      "hasSelector" : {
+         "@id" : "http://data.perseus.org/collections/urn:cite:perseus:pdljann.a9562e51c827013227010ada42b1fd09#target-1-sel-1",
+         "@type" : "oa:TextQuoteSelector",
+         "exact" : "Sicily",
+         "prefix" : "of two rocks between Italy and",
+         "suffix" : ", and only a short distance from"
+      },
+      "hasSource" : {
+         "@id" : "urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:S.scylla_1"
+      }
+   },
+   "motivatedBy" : "oa:identifying",
+   "serializedBy" : {
+      "@id" : "https://hypothes.is",
+      "@type" : "prov:SoftwareAgent"
+   }
+}
